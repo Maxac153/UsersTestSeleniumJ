@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UsersTestSeleniumJ"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2,654">
+    <properties></properties>
+
+
+
+            <testcase
+                name="negative_tests"
+                time="0,010"
+                classname="tests.TestUserRegistration">
+            </testcase>
+            <testcase
+                name="positive_test"
+                time="2,644"
+                classname="tests.TestUserRegistration">
+            </testcase>
+</testsuite>
