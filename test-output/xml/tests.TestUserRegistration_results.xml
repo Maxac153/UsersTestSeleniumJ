@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="C:/Users/Turgor/IdeaProjects/UsersTestSeleniumJ"
-           tests="2"
+           tests="6"
            failures="1"
            errors="0"
            skipped="0"
-           time="10,858">
+           time="21,899">
     <properties></properties>
 
             <testcase
                 name="testUserRegistration"
-                time="2,302"
+                time="6,622"
                 classname="tests.TestUserRegistration">
 
-            <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;dropdown-toggle&apos;]&quot;}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_372&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [15c1deaa4a58ddfd4248c4086bd26813, findElement {using=xpath, value=//a[@class=&apos;dropdown-toggle&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Turgor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54677/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 15c1deaa4a58ddfd4248c4086bd26813">
-                <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='dropdown-toggle']"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [15c1deaa4a58ddfd4248c4086bd26813, findElement {using=xpath, value=//a[@class='dropdown-toggle']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Turgor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54677/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 15c1deaa4a58ddfd4248c4086bd26813
-                sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.lang.reflect.Constructor.newInstance(Constructor.java:423)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)pages.RegistrationPage.userRegistration(RegistrationPage.java:14)tests.TestUserRegistration.testUserRegistration(TestUserRegistration.java:28)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)java.util.ArrayList.forEach(ArrayList.java:1259)org.testng.TestRunner.privateRun(TestRunner.java:770)org.testng.TestRunner.run(TestRunner.java:591)org.testng.SuiteRunner.runTest(SuiteRunner.java:402)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)org.testng.SuiteRunner.run(SuiteRunner.java:304)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)org.testng.TestNG.runSuitesLocally(TestNG.java:1102)org.testng.TestNG.runSuites(TestNG.java:1032)org.testng.TestNG.run(TestNG.java:1000)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+            <failure type="java.lang.AssertionError" message="expected [http://users.bugred.ru/] but found [http://users.bugred.ru/user/register/index.html]">
+                <![CDATA[java.lang.AssertionError: expected [http://users.bugred.ru/] but found [http://users.bugred.ru/user/register/index.html]
+                org.testng.Assert.fail(Assert.java:97)org.testng.Assert.assertEqualsImpl(Assert.java:136)org.testng.Assert.assertEquals(Assert.java:118)org.testng.Assert.assertEquals(Assert.java:575)org.testng.Assert.assertEquals(Assert.java:585)tests.TestUserRegistration.testUserRegistration(TestUserRegistration.java:40)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)java.util.ArrayList.forEach(ArrayList.java:1259)org.testng.TestRunner.privateRun(TestRunner.java:770)org.testng.TestRunner.run(TestRunner.java:591)org.testng.SuiteRunner.runTest(SuiteRunner.java:402)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)org.testng.SuiteRunner.run(SuiteRunner.java:304)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)org.testng.TestNG.runSuitesLocally(TestNG.java:1102)org.testng.TestNG.runSuites(TestNG.java:1032)org.testng.TestNG.run(TestNG.java:1000)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </failure>
     </testcase>
@@ -38,7 +22,27 @@ Session ID: 15c1deaa4a58ddfd4248c4086bd26813
 
             <testcase
                 name="testUserRegistration"
-                time="8,556"
+                time="2,865"
+                classname="tests.TestUserRegistration">
+            </testcase>
+            <testcase
+                name="testUserRegistration"
+                time="2,293"
+                classname="tests.TestUserRegistration">
+            </testcase>
+            <testcase
+                name="testUserRegistration"
+                time="4,217"
+                classname="tests.TestUserRegistration">
+            </testcase>
+            <testcase
+                name="testUserRegistration"
+                time="3,516"
+                classname="tests.TestUserRegistration">
+            </testcase>
+            <testcase
+                name="testUserRegistration"
+                time="2,386"
                 classname="tests.TestUserRegistration">
             </testcase>
 </testsuite>

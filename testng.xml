@@ -4,6 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/Turgor/IdeaProjects/UsersTestSeleniumJ">
         <classes>
             <class name="tests.TestUserRegistration"></class>
+            <class name="tests.TestsAddAvatar"></class>
         </classes>
     </test>
 </suite>
