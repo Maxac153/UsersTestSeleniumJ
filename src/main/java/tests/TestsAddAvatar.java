@@ -1,5 +1,6 @@
 package tests;
 
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -16,13 +17,13 @@ public class TestsAddAvatar {
                     "manager@mail.ru",
                     "1",
                     "C:\\Users\\Turgor\\IdeaProjects\\UsersTestSeleniumJ\\src\\main\\java\\img\\img_8Kb.png",
-                    "http://users.bugred.ru/tmp/default_avatar.jpg"
+                    "true"
                 },
                 {
                     "manager@mail.ru",
                     "1",
                     "C:\\Users\\Turgor\\IdeaProjects\\UsersTestSeleniumJ\\src\\main\\java\\img\\img_more_150Kb.jpg",
-                    "http://users.bugred.ru/tmp/default_avatar.jpg"
+                    "false"
                 }
         };
     }
@@ -35,8 +36,7 @@ public class TestsAddAvatar {
         try {
             driver.get("http://users.bugred.ru/user/login/index.html");
             String result = ProfilePage.addAvatar(driver, email, password, img);
-            System.out.println(result);
-            Assert.assertNotEquals(result, exceptionResult);
+            Assert.assertNotEquals(StringUtils.isNumeric(result.split("/")[5]) ? "true" : "false", exceptionResult);
         } catch (Exception e) {
             System.out.println("Error message: " + e.getMessage());
         } finally {
